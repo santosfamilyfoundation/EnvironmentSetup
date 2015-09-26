@@ -2,10 +2,6 @@ echo "Type the number of cores you have available for building opencv (integer >
 
 read cores;
 
-# Make virtualenv
-echo "Creating \"SCOPE\" Virtual Environment";
-mkvirtualenv SCOPE;
-
 # Python dependencies
 echo "Installing numpy, scipy, statsmodels, matplotlib, pandas, seaborn, and scikit-learn.";
 sudo apt-get install -y python3.4-dev;

@@ -10,6 +10,8 @@ Please use Ubuntu 14.04 LTS.
 Before proceeding, please run `sudo apt-get update` and `sudo apt-get upgrade`. 
 Please verify that `python3` opens a python 3.4 interpreter.
 
-If this is the case, we suggest connecting to the network via ethernet (the OpenCV repo is ~1GB). Open a terminal and run the `dependencies_opencv.sh`. When this has finished, open a new terminal or execute `source ~/.bashrc`. Then run `mkvirtualenv SCOPE`. Then run `make_opencv.sh`. This will take a non-trivial amount of time (probably at least a half an hour).
+If this is the case, we suggest connecting to the network via ethernet (the OpenCV repo is ~1GB). Open a terminal and run the `dependencies_opencv.sh`. When this has finished, open a new terminal or execute `source ~/.bashrc`. Then run `mkvirtualenv SCOPE`. You should see that you are 'in' your virtual environment [e.g. the current line of your terminal should be prefaced with "(SCOPE)"].
+
+Next run `make_opencv.sh`. This will take a non-trivial amount of time (probably at least a half an hour).
 
 If this completes successfully, run `install_opencv.sh`.
