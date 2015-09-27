@@ -14,3 +14,4 @@ echo "# virtualenv and virtualenvwrapper" >> ~/.bashrc;
 echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc;
 echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc;
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc;
+echo ".bashrc modified. Please open a new terminal or source .bashrc before proceeding";
